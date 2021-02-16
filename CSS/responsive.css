@@ -1,0 +1,268 @@
+@media only screen and (max-width:1200px){
+
+
+    /* -----------------------------Navigation bar----------------- */
+
+    #navigation{
+        width: 95%;
+        margin: 5px auto;
+    }
+    /* -------logo------- */
+    #navigation .logo{
+        flex-basis: 17%;
+    }
+
+    #navigation .logo h2{
+        font-size: 1rem;
+        margin: 7px 0;
+    }
+
+    /* -------menu------- */
+    #navigation .navbar{
+        flex-basis: 90%;
+    }
+
+    #navigation ul li a{
+        padding: 5px 10px;
+        margin: 5px 2px;
+        font-size: 1rem;
+        border-radius: 12px;
+    }
+
+
+    /* ---------------line------------- */
+    .line{
+        margin: 13px 10px;
+    }
+
+
+    /*  -------------Home section ------------*/
+    #home{
+        width: 92%;
+    }
+
+    .head{
+        margin-bottom: 10px;
+    }
+
+    .head h2{
+        font-size: 1rem;
+    }
+
+
+    .box{
+        flex-direction: column;
+
+    }
+    .box-left{
+        margin: 10px 0px;
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .work{
+        width: 88vw;
+        margin: 0 10px;  
+    }
+    
+    .box-right{
+        flex-basis: 100%;
+        width: 88vw;
+        margin: 0 10px;
+    }
+
+    
+    /* -------------------Services Section---------- */
+    #service{
+        padding: 30px 15px;
+        margin: 35px 0;
+    }
+
+    .main .main-row-1{
+        width: 90vw;
+    }
+
+    .main-row-1 h2{
+        font-size: 1.5rem;
+    }
+
+    .main-row-1 p{
+        font-size: 0.75rem;
+    }
+    
+    /* --------cards------ */
+    .cards{
+        flex-direction: column;
+    }
+
+
+
+
+    
+    /* ------------------------Recent blog section---------------------------- */
+    #recent{
+        padding: 40px 10px;
+        margin: 35px 0;
+    }
+
+    .blog .main-row-1{
+        width: 80vw;
+    }
+    .blog .main-row-1 h2{
+        font-size: 1.5rem;
+    }
+
+    .blog-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .columns{
+        margin: 15px 0;
+        width: 80vw;
+        align-self: center;
+
+    }
+
+    .columns img{
+        height: 25vh;
+        width: 80vw;
+        
+    }
+
+    .columns h2{
+        font-size: 1rem;
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+
+
+
+    
+    /* --------------------------client section----------------- */
+    #clients{
+        padding: 30px 30px;
+        margin: 35px 0;
+    }
+
+    .client .main-row-1{
+        width: 90%;
+    }
+    .client .main-row-1 h2{
+        font-size: 1.2rem;
+    }
+
+
+    .clients-card .clients-card-col{
+        margin: 10px 10px 20px 10px;
+        width: 90vw;
+    }
+
+    .clients-card .clients-card-col .fa-quote-right{
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+    
+/* ------------------------------Footer section */
+.foot{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.foot-row-1{
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.foot-col-1,.foot-col-3{
+    /* flex-basis: 100%; */
+    align-self: flex-start;
+    margin: 0 10px;
+}
+.foot-col-1{
+    width: 50vw;
+}
+
+.foot-col-2-div{
+    margin: 10px 0px 10px 10px;
+    flex-basis: 100%;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.foot-col-2 h2{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.foot-col-1 p,.foot-col-2 p,.foot-col-3 p{
+    font-size: 0.7rem;
+}
+
+.foot-col-3 i{
+    margin-right: 10px;
+    padding: 5px 7px;
+    width: 18px;
+}
+
+footer hr{
+    margin: 25px 0;
+}
+
+
+/* ----------------------.foot-row-2-- */
+.foot-row-2{
+    text-align: center;
+    line-height: 30px;
+    align-self: center;
+}
+.foot-row-2 p{
+    font-size: 0.7rem;
+}
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:500px){
+        /* -----------------------------Navigation bar----------------- */
+
+        #navigation{
+            margin: 10px 0 0 5px;
+        }
+    
+        #navigation .logo h2{
+            font-size: 0.53rem;
+            margin: 10px 0 0 0;
+            /* display: none; */
+        }
+    
+        #navigation ul li a{
+            padding: 5px 7px;
+            margin: 15px 1px 0 1px;
+            font-size: 0.6rem;
+            border-radius: 10px;
+        }
+
+        #navigation .navbar{
+            flex-basis: 100%;
+            align-self: center;
+        }
+       
+}

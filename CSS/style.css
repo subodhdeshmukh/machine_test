@@ -1,0 +1,598 @@
+/* --------------------Reset CSS---------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    scroll-behavior: smooth;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* -----------------------------Navigation bar----------------- */
+
+#navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 5px auto;
+}
+/* -------logo------- */
+#navigation .logo{
+    flex-basis: 20%;
+    cursor: pointer;
+    transition: 0.8s;
+}
+#navigation .logo:hover{
+    color:rgb(55, 182, 55)
+}
+
+#navigation .logo h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 7px 0;
+}
+
+#navigation .logo i{
+    color: rgb(55, 182, 55);
+}
+
+
+
+
+/* -------menu------- */
+#navigation .navbar{
+    flex-basis: 80%;
+}
+
+#navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navigation ul li a{
+    text-decoration: none;
+    padding: 5px 13px;
+    margin: 5px;
+    font-size: 1.2rem;
+    color: grey;
+    border-radius: 20px;
+    transition: 0.8s;
+
+}
+
+#navigation ul a:hover{
+    background-color: rgb(55, 182, 55);
+    color: white;
+}
+
+#navigation ul .active{
+    background-color: rgb(55, 182, 55);
+    color: white;
+}
+
+
+/* ---------------line------------- */
+.line{
+    margin: 20px 10px;
+}
+
+
+
+
+/*  -------------Home section ------------*/
+#home{
+    width: 90%;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.head{
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.head h2{
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(87, 86, 86);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.box-left{
+    margin-right: 10px;
+    flex-basis: 50%;
+}
+
+.work{
+    background: url('../img/image_2.jpg') no-repeat center center/cover;
+    width: 550px;
+    height:350px;
+    color: white;
+    
+}
+
+.work h3,.work p{
+    position: relative;
+    top:280px;
+    left: 15px;
+    margin-bottom: 10px;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.box-right{
+    color: white;
+    flex-basis: 50%;
+    width: 550px;
+    height:350px;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* ----------------------row-1------------------ */
+.row-1{
+    flex-basis: 50%;
+    background: url('../img/image_6.jpg') no-repeat center center/cover;
+    margin-bottom: 10px;
+}
+
+
+
+/* ------------------------row-2---------------------- */
+.row-2{
+    flex-basis: 50%;
+    display: flex;
+    color: white;
+}
+
+
+.row-2 .col-1{
+    flex-basis: 50%;
+    background: url('../img/image_4.jpg') no-repeat center center/cover;
+    margin-right:5px;
+}
+
+.row-2 .col-2{
+    flex-basis: 50%;
+    background: url('../img/image_4.jpg') no-repeat center center/cover;
+    margin-left: 5px;
+}
+
+.box-right h3,.box-right p{
+    position: relative;
+    top: 110px;
+    left: 15px;
+    margin-bottom: 8px;
+}
+
+
+
+
+/* -------------------Services Section---------- */
+#service{
+    background-image: linear-gradient(to right top, #4afa73, #56fb82, #63fb90, #6ffc9d, #7bfca9, #6efab8, #65f8c6, #61f5d2, #46efe3, #39e7f0, #43def8, #5ad5fc);
+    padding: 40px 65px;
+    margin: 35px 0;
+}
+
+.main{
+    color: white;
+}
+.main .main-row-1{
+    line-height: 25px;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+.main .main-row-1 h2{
+    margin-bottom: 15px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8rem;
+}
+
+/* --------cards------ */
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards .gap{
+    margin: 30px 10px 10px 10px;
+    text-align: center;
+}
+.cards .gap i{
+    font-size: 2rem;
+    padding: 18px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    text-align: center;
+}
+.cards .gap h3{
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: serif;
+
+}
+.cards .gap p{
+    line-height: 25px;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+
+/* ------------------------Recent blog section---------------------------- */
+#recent{
+    background-color: rgb(248, 247, 247);
+    padding: 40px 65px;
+    margin: 35px 0;
+}
+
+.blog .main-row-1{
+    line-height: 25px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.blog .main-row-1 h2{
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.blog-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.columns{
+    margin: 0 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    align-self: flex-start;
+    transition: 1s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5),
+                -2px -2px 10px rgba(202, 202, 202, 0.5);
+}
+.columns:hover{
+    background-color: rgb(255, 60, 60);
+    color: white;
+}
+.columns:hover .btn{
+    border: 2px solid black;
+    box-shadow: 0 0 0 white;
+    color: black;
+}
+.columns:hover .btn a{
+    color: black;
+}
+
+.columns img{
+    height: 180px;
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+.columns h2{
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.columns p{
+    font-size: 0.9rem;
+    line-height: 20px;
+    padding: 0 10px;
+}
+
+.columns .btn{
+    padding: 7px 15px;
+    border: 2px solid green;
+    border-radius: 50px;
+    background-color: white;
+    margin: 15px 0 30px 0;
+    transition: all 0.4s;
+    color: green;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+    box-shadow: 2px 2px 15px rgba(128, 255, 160, 0.5),
+                -2px -2px 15px rgba(139, 255, 187, 0.5);
+}
+
+.columns .btn a{
+    text-decoration: none;
+    color: green;
+}
+.columns .btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 0 white;
+    font-weight: 700;
+    padding: 7px 35px;
+}
+.columns .btn:hover a{
+   color: white;
+}
+
+
+
+
+/* --------------------------client section----------------- */
+#clients{
+    padding: 40px 65px;
+    margin: 35px 0;
+    color: black;
+    font-family: sans-serif;
+}
+
+.client .main-row-1{
+    line-height: 25px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.client .main-row-1 h2{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: rgb(70, 69, 69);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.clients-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.clients-card .clients-card-col{
+    background-color: rgb(241, 239, 239);
+    margin: 0 10px;
+    width: 450px;
+    padding: 25px 15px;
+    text-align: center;
+    color: rgb(136, 135, 135);
+    line-height: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.clients-card .clients-card-col p{
+    margin-bottom: 25px;
+}
+
+.clients-card .clients-card-col h3{
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+.clients-card .clients-card-col h3 .fa-twitter{
+    color: rgb(100, 100, 255);
+}
+.clients-card .clients-card-col h3 .fa-google-plus{
+    color: rgb(253, 42, 42);
+}
+.clients-card .clients-card-col .fa-quote-right{
+    position: relative;
+    top: -36px;
+    font-size: 1.5rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: white;
+    padding: 10px 18px;
+}
+
+
+
+/* ------------------------------Footer section */
+footer{
+    background-color: black;
+    color: white;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.foot-row-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 94%;
+}
+
+.foot-col-1,.foot-col-3{
+    flex-basis: 23%;
+    margin: 0 15px;
+    align-self: flex-start;
+    line-height: 27px;
+    color: grey;
+}
+
+.foot-col-2-div{
+    align-self: flex-start;
+    margin: 0 15px;
+    flex-basis: 54%;
+    line-height: 27px;
+    color: grey;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.foot-col-2-left, .foot-col-2-right{
+    margin: 0 7px;
+}
+
+.foot-col-1 h2, .foot-col-2 h2, .foot-col-3 h2{
+    margin-bottom: 10px; 
+    color: white;
+}
+
+.foot-col-2 h2{
+    margin-left: 20px;
+}
+.foot-col-1 p, .foot-col-2 p, .foot-col-3 p{
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.foot-col-1 p:hover, .foot-col-2 p:hover, .foot-col-3 p:hover{
+    color: white;
+}
+
+.foot-col-3 i{
+    color: grey;
+    margin-right: 15px;
+    transition: 0.5s;
+    border: 1px solid black;
+    padding: 5px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 18px;
+    text-align: center;
+}
+
+.foot-col-3 .fa-twitter:hover{
+    color: rgb(58, 58, 255);
+    border: 1px solid rgb(58, 58, 255);
+    background-color: white;
+}
+
+.foot-col-3 .fa-facebook:hover{
+    color: rgb(0, 0, 255);
+    border: 1px solid rgb(0, 0, 255);
+    background-color: white;
+}
+
+.foot-col-3 .fa-google-plus:hover{
+    color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    background-color: white;
+}
+
+.foot-col-3 .fa-instagram:hover{
+    color: rgb(90, 1, 1);
+    border: 1px solid rgb(90, 1, 1);
+    background-color: white;
+}
+footer hr{
+    border: 1px solid white;
+    width: 100%;
+    margin: 35px 0;
+}
+
+
+/* ----------------------.foot-row-2-- */
+.foot-row-2{
+    text-align: center;
+    line-height: 30px;
+    color: grey;
+}
+.foot-row-2 span{
+    color: rgb(61, 206, 117);
+    cursor: pointer;
+}
+
+
+
+
+/* ---------utility classes */
+
+.h-secondary{
+    font-size: 1.2rem;
+}
+.para{
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
